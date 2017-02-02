@@ -1,0 +1,614 @@
+body
+{
+	overflow-y: hidden;
+	overflow-x: hidden;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+#maintabs, #maintabs li
+{
+	height: 10vh;
+}
+
+#maintabs li a
+{
+	padding-top: 3.5vh;
+	height: 101%;
+}
+
+#maintabs
+{
+	border-right: 1px lightgrey solid !important;
+	border-radius: 0px 0px 15px 0px !important; 
+}
+
+.addagent
+{
+	width: 100% !important;
+	height: 50px;
+	margin-top: 10px;
+}
+
+#addagenttablerow
+{
+	position: absolute;
+	top: 0px;
+	width: 100vw;
+}
+
+#addagenttablerow div.row input, #addagenttablerow div.row select, #addagenttablerow div.row button
+{
+	border-radius: 10px;
+	text-align: center;
+	font-size: 24px;
+	color: rgb(33, 78, 120);
+	margin-top: 8px !important;
+}
+
+#addagenttablerow div.row span
+{
+	font-size: 24px;
+}
+
+.dropdown
+{
+	padding: 0px !important;
+	margin: 0px !important;
+	border: 0px !important;
+}
+
+.dropdown-menu
+{
+	background-color: #74a9d8;
+	border-radius: 10px; 
+}
+
+.dropdown-menu li a:hover
+{
+	background-color: transparent;
+	color: white;
+}
+
+.ddm li a
+{
+	width: 9.25vw !important;
+	min-width: 5vw !important;
+}
+
+.ddm, .ddm li
+{
+	text-align: center !important;
+	font-size: 24px;
+	width: 9.25vw !important;
+	min-width: 5vw !important;
+}
+
+.ddm2 li a
+{
+	width: 20.35vw !important;
+}
+
+.ddm2
+{
+	text-align: center !important;
+	font-size: 24px;
+	width: 20.35vw !important;
+	height: 300px;
+	overflow: hidden;
+}
+
+.ddm2 li
+{
+	text-align: center !important;
+	font-size: 24px;
+	width: 20.35vw !important;
+}
+
+#addagenttablerow div.row button
+{
+	background-color: #74a9d8;
+}
+
+button:focus
+{
+	outline: none;
+}
+
+#addagenttablerow div.row input:focus, #addagenttablerow div.row select:focus
+{
+	outline: none;
+}
+
+option
+{
+	text-align: center;
+}
+
+.logininput
+{
+	width: 100%;
+	text-align: center;
+	border: 2px solid #74a9d8 !important;
+	color: #74a9d8;
+}
+
+#myModal button
+{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.logininput:focus
+{
+	outline: none;
+}	
+
+.db
+{
+	background-color: rgb(215, 230, 244);
+}
+
+.lb
+{
+	background-color: rgb(195, 218, 238) !important;
+}
+
+.ddb
+{
+	background-color: #74a9d8;
+	color: white;
+}
+
+.modal-header
+{
+	border-bottom: 2px dotted #74a9d8 !important;
+	color: #74a9d8;
+}
+
+#addagenttablecolumn div.row
+{
+	height: 90px;
+}
+
+#addagenttablecolumn div.row div
+{
+	height: 100%;
+}
+
+#addagenttablecolumn
+{
+	border-radius: 10px;
+}
+
+#main
+{
+	width: 100%;
+	height: 100%;
+}
+
+#top
+{
+	z-index: 20;
+	position: fixed;
+	background-color: white;
+	width: 100vw;
+	height: 10vh;
+	box-shadow: 0 2px 2px white, 0 3px 2px #74a9d8;
+}
+
+#middle
+{
+	position: fixed;
+	top: 10vh;
+	width: 100%;
+	height: 80vh;
+	overflow-x: hidden;
+	overflow-y: scroll;	
+}
+
+#overviewcontrols
+{
+	position: fixed;
+	top: 90vh;
+	height: 10vh;
+	width: 100vw;
+	z-index: 20;
+	box-shadow: 0 -2px 2px #163550;
+	padding-top: 1vh;
+}	
+
+#tabber 
+{
+	margin: 0px !important;
+	padding: 0px !important;
+	height: 60px;
+}
+
+#overviewtablehead
+{
+	display: none;
+}
+
+#selectlist
+{
+	overflow: hidden;
+	white-space: nowrap;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#hoversquare
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 8vh;
+	z-index: 10;
+	background-color: rgba(32, 77, 116, 0.3); 
+}
+
+div.selectdiv
+{
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	font-size: 1vw;
+	height: 100%;
+	width: 50px;
+	text-align: center;
+	padding-top: calc(4vh - .75vw);	
+}
+
+div.selectdiv:nth-child(even)
+{
+	background-color: rgb(215, 230, 244);
+}
+
+span
+{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+#overviewtablecolumn
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100vw;
+}
+
+#overviewtable, #alterationtranstable, #alterationtermtable
+{
+	width: 99%;
+	border-collapse: separate;
+	border-spacing: 2px;
+	color: #214e78;
+	margin-top: 10px;
+}
+
+#selectul
+{
+	height: 100%;
+	padding: 0px;
+}
+
+#overview
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	margin: 0px;
+	padding: 0px;
+}
+
+option
+{
+	text-align: center;
+}
+
+#overviewtable td, #overviewtable th, #alterationtranstable td, #alterationtranstable th, #alterationtermtable td, #alterationtermtable th
+{
+	text-align: center;
+}
+
+#overview td, #alteration td
+{
+	font-size: 1vw;
+}
+
+button:focus, button:active
+{
+	outline: none;
+}
+
+#overviewtable tbody tr.mainrows td:nth-child(7), #overviewtable thead tr.mainrows th:nth-child(7)
+{
+	width: 10vw;
+	word-break: break-all;
+}
+
+#overviewtable tbody tr.mainrows td:nth-child(8), #overviewtable thead tr.mainrows th:nth-child(8)
+{
+	width: 10vw;
+	word-wrap: break-word;
+}
+
+
+
+#overviewtable tr.mainrows td:nth-child(9), #overviewtable tr.mainrows th:nth-child(9),
+#overviewtable tr.mainrows td:nth-child(10), #overviewtable tr.mainrows th:nth-child(10)
+{
+	width: 7.5vw !important;
+	word-break: break-all;
+}
+
+#overviewtable tr.mainrows td:nth-child(12), #overviewtable tr.mainrows th:nth-child(12),
+#overviewtable tr.mainrows td:nth-child(2), #overviewtable tr.mainrows th:nth-child(2)
+{
+	width: 7vw !important
+}
+
+#overviewtable tr.mainrows td:nth-child(4), #overviewtable tr.mainrows th:nth-child(4)
+{
+	width: 7vw !important;
+	word-break: break-all;
+}
+
+#overviewtable tr.mainrows td:nth-child(1), #overviewtable tr.mainrows th:nth-child(1)
+{
+	width: 5vw !important;
+}
+
+#overviewtable tr.mainrows td:nth-child(5), #overviewtable tr.mainrows th:nth-child(5),
+#overviewtable tr.mainrows td:nth-child(15), #overviewtable tr.mainrows th:nth-child(15)
+{
+	width: 5vw !important;
+	word-break: break-all;
+}
+
+#overviewtable tr.mainrows td:nth-child(3), #overviewtable tr.mainrows th:nth-child(3),
+#overviewtable tr.mainrows td:nth-child(11), #overviewtable tr.mainrows th:nth-child(11),
+#overviewtable tr.mainrows td:nth-child(13), #overviewtable tr.mainrows th:nth-child(13)
+{
+	width: 2vw !important;
+	word-break: break-all;
+}
+
+#overviewtable tr td span
+{
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+
+#overviewtable tr th button:focus
+{
+	outline: none;
+}
+
+#overviewtable tr.mainrows td:nth-child(11) span, #overviewtable tr.mainrows td:nth-child(13) span
+{
+	font-size: 30px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#overviewtable tr th button
+{
+	background-color: #337ab7;
+	border-radius: 5px;
+	color: white;
+	border-bottom-color: #214e78;
+	border-right-color: #214e78;
+	border-top-color: #609dd2;
+	border-left-color: #609dd2;
+}
+
+#overviewtable tr th button:active
+{
+	background-color: #337ab7;
+	border-radius: 5px;
+	color: white;
+	border-bottom-color: #609dd2 !important;
+	border-right-color: #609dd2 !important;
+	border-top-color: #609dd2 !important;
+	border-left-color: #609dd2 !important;
+}
+
+#overviewtable td
+{
+	padding-top: .5%;
+	padding-bottom: .5%;
+	border-radius: 5px;
+}
+
+.expander
+{
+	height: 100%;
+	width: 100%;
+	border: 0px;
+	word-wrap: break-word;
+	background-color: rgb(116, 169, 216);
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	vertical-align: middle;
+	outline: none;
+}
+
+.expander:active
+{
+	outline: none;
+}
+
+td
+{
+	vertical-align: middle;
+}
+
+#overviewtable tr:nth-child(2) th,
+#alterationtranstable tr:nth-child(2) th,
+#alterationtermtable tr:nth-child(2) th
+{
+	border-radius: 5px;
+	background-color: #74a9d8;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 3px solid transparent;
+}
+
+#overviewtable tbody tr:nth-child(odd) td
+{
+	background-color: #c3daee;
+}
+
+#overviewtablerow
+{
+	width: 100vw;
+	padding: 0px;
+	margin: 0px;
+	height: 60vh;
+}
+
+#alterationtablerow
+{
+	position: absolute;
+	top: 10vh;
+	width: 100vw;
+}
+
+#alterationterm
+{
+	height: 40vh;
+	width: 100%;
+	overflow-y: scroll;
+	oveflow-x: hidden;
+}
+
+#alterationtrans
+{
+	height: 40vh;
+	width: 100%;
+	overflow-y: scroll;
+	oveflow-x: hidden;
+}
+
+#alterations table, #alterations table tbody
+{
+	width: 100%;
+}
+
+#trtemp
+{
+	width: 0px;
+}
+
+.temprow
+{
+	width: 99vw;
+	height: 100%;
+	background-color: rgb(215, 230, 244);
+	padding: 0px;
+	margin: 0px;
+	border: 0px
+	border-radius: 10px !important;
+}
+
+.temprow2
+{
+	width: 99vw;
+	background-color: rgb(215, 230, 244);
+	padding: 0px;
+	margin: 0px;
+	border: 0px
+	border-radius: 10px !important;
+}
+
+div.row.temprow::before, div.row.temprow2::before
+{
+	display: none;
+}
+
+div.row.temprow2::after
+{
+	height: 0px !important;
+}
+
+div.row.temprow::after
+{
+	height: 2vh;
+}
+
+.tempcol
+{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.tempcol table
+{
+	width: 100%;
+}
+
+div.tempcol table td
+{
+	width: auto !important;
+	text-align: center;
+}
+
+#hiredatediv div.ui-datepicker-inline
+{
+	width: 50% !important;
+	left: 25% !important
+}
+
+#hiredatediv table.ui-datepicker-calendar
+{
+	background-color: white;
+}
+
+#datediv div.ui-datepicker-inline
+{
+}
+
+.temprow2
+{
+	position: relative;
+	margin-top: 1vh;
+	-webkit-box-shadow: 0 5px 10px 10px #163550;
+	-moz-box-shadow: 0 5px 10px 10px #163550;
+	box-shadow: 0 5px 10px 10px #163550;
+	border-radius: 10px 10px 0px 0px;
+	z-index: 20 !important;
+}
+
+.temprow
+{
+	position: relative;
+	-webkit-box-shadow: 0 20px 10px 10px #163550;
+	-moz-box-shadow: 0 20px 10px 10px #163550;
+	box-shadow: 0 20px 10px 10px #163550;
+	border-radius: 0px 0px 10px 10px;
+	z-index: 20 !important;
+	margin-bottom: 4vh;
+}
+
+span[socket]
+{
+	color: rgb(116, 169, 216);
+	font-weight: 700;
+	background-color: rgb(195, 218, 238);
+	border-radius: 5px;
+	padding: 5px;
+	margin: 2px;
+	display: inline-block;
+}
